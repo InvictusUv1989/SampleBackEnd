@@ -1,0 +1,32 @@
+[
+  {
+    "CustomerId": "C001",
+    "CustomerName": "AOne",
+    "Email": "aone@aone.com",
+    "PhoneNumber":  "1111111111"
+  },
+  {
+    "CustomerId": "C002",
+    "CustomerName": "ATwo",
+    "Email": "aone@aone.com",
+    "PhoneNumber": "2222222222"
+  },
+  {
+    "CustomerId": "C003",
+    "CustomerName": "AThree",
+    "Email": "aone@aone.com",
+    "PhoneNumber": "3333333333"
+  },
+  {
+    "CustomerId": "C004",
+    "CustomerName": "AFour",
+    "Email": "aone@aone.com",
+    "PhoneNumber": "4444444444"
+  },
+  {
+    "CustomerId": "C005",
+    "CustomerName": "AFive",
+    "Email": "aone@aone.com",
+    "PhoneNumber": "4444444444"
+  }
+]
