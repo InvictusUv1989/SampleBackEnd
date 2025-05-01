@@ -9,18 +9,14 @@ namespace SampleBackEnd.Services
         const string filename = "Data/product.json";
         public static List<Product> GetProductData()
         {
-            return JsonToObject(filename);
+            return JsonUtility.JsonToObject<List<Product>>(filename);
 
         }
 
         public static Product GetProductByCode(string productCode)
         {
-            return JsonToObject(filename).FirstOrDefault(x => x.ProductCode == productCode);
+            return JsonUtility.JsonToObject<List<Product>>(filename).FirstOrDefault(x => x.ProductCode == productCode);
         }
 
-        private static List<Product> JsonToObject(string filename)
-        {
-            return JsonUtility.JsonToObject<List<Product>>(filename);
-        }
     }
 }
