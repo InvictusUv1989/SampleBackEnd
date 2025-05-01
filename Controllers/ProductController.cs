@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using SampleBackEnd.Model;
 using SampleBackEnd.Services;
 
@@ -15,7 +14,7 @@ namespace SampleBackEnd.Controllers
             return ProductService.GetProductData();
         }
 
-        [HttpGet()]
+        [HttpGet]
         public Product GetProductByCode(string productCode)
         {
             return ProductService.GetProductByCode(productCode);
