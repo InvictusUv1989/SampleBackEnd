@@ -15,7 +15,7 @@ namespace SampleBackEnd.Controllers
             return ProductService.GetProductData();
         }
 
-        [HttpGet("getproductsbycode")]
+        [HttpGet()]
         public Product GetProductByCode(string productCode)
         {
             return ProductService.GetProductByCode(productCode);
